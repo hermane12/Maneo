@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Site de vente en ligne avec des produits variés.">
+    <title> Maneo Shop</title>
+    <link rel="stylesheet" href="Maneo.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <h1>Super Méga Cool Shop</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#produits">Nos Produits</a></li>
+                <li><a href="#panier">Mon Panier</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="accueil" class="section accueil">
+        <h2>Bienvenue sur le site de vente en ligne maneo</h2>
+        <p>Découvrez des produits incroyables à des prix imbattables. Shoppez maintenant !</p>
+    </section>
+
+    <section id="produits" class="section produits">
+        <h2>Nos Produits</h2>
+        <div class="produit">
+            <img src="c.jpeg" alt="Produit 1">
+            <h3>Produit 1</h3>
+            <p>Prix : 99,99€</p>
+            <button class="btn-acheter">Ajouter au panier</button>
+        </div>
+        <div class="produit">
+            <img src="a.jpeg" alt="Produit 2">
+            <h3>Produit 2</h3>
+            <p>Prix : 79,99€</p>
+            <button class="btn-acheter">Ajouter au panier</button>
+        </div>
+        <div class="produit">
+            <img src="c.jpeg" alt="Produit 3">
+            <h3>Produit 3</h3>
+            <p>Prix : 99,99€</p>
+            <button class="btn-acheter">Ajouter au panier</button>
+        </div>
+    </section>
+
+    <section id="panier" class="section panier">
+        <h2>Mon Panier</h2>
+        <p>Votre panier est vide.</p>
+        <button class="btn-payer">Passer à la caisse</button>
+    </section>
+
+    <section id="contact" class="section contact">
+        <h2>Contact</h2>
+        <p>Vous avez des questions ? N'hésitez pas à nous contacter à l'adresse suivante : <a href="mailto:hghe2006@gmail.com">contact@shop.com</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Maneo Shop. Tous droits réservés.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
